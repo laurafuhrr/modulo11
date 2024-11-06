@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Instrui os navegadores móveis a renderizar o conteúdo corretamente em várias larguras de tela-->
+    <title>Ebac Shoes</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="inner_header">
+                <div class="logo">
+                    <h1>Ebac<span>Shoes</span></h1>
+                </div>
+                <ul class="navigation">
+                    <a><li>SOBRE A LOJA</li></a>
+                    <a><li>PRODUTOS</li></a>
+                    <a><li>PARCEIROS</li></a>
+                </ul>
+            </div>
+        </div>
+    
+        <div id="carousel-imagens">
+            <img src="./OIP-resized.jpg">
+            <img src="./2bbcfa99737217.5ef9be3dbb9a9-resized.jpg">
+            <img src="./R-resized.jpg">
+        </div>
+    
+        <div class="sobre_loja">
+            <img src="./4285336113_2.webp" alt="loja de tenis" class="loja">
+            <div class="info">
+                <h1>Sobre a EbacShoes</h1>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+        </div>
+    
+        <div class="produtos">
+            <h2>PRODUTOS</h2>
+            <ul class="lista_produtos">
+                    <li>
+                        <img src="./OIP.jpeg" alt="tenis">
+                        <h3>Tenis Puma</h3>
+                        <p>R$ 199,90</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </li>
+                    <li>
+                        <img src="./OIP.jpeg" alt="tenis">
+                        <h3>Tenis Adidas</h3>
+                        <p>R$ 249,90</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </li>
+                    <li>
+                            <img src="./OIP.jpeg" alt="tenis">
+                            <h3>Tenis Puma</h3>
+                            <p>R$ 199,90</p>
+                            <button>Adicionar ao Carrinho</button>
+                    </li>
+                    <li>
+                            <img src="./OIP.jpeg" alt="tenis">
+                            <h3>Tenis Adidas</h3>
+                            <p>R$ 249,90</p>
+                            <button>Adicionar ao Carrinho</button>
+                    </li>
+            </ul>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+        <script>
+            $(document).ready(function () {
+                $('#carousel-imagens').slick({
+                    autoplay: true,
+                })
+            });
+        </script>
+    </div>
+</body>
+</html>
